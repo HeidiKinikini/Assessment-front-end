@@ -1,0 +1,53 @@
+.flex-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5vw;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: darkorange;
+}
+
+hr {
+    border: 1px solid darkorange;
+}
+
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.pic-1{
+    width: 40rem;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+
+#color, #place, #ritual, .submit{
+    padding: 8px;
+    color: black;
+    border-radius: 10px;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#color:hover, #place:hover, #ritual:hover, .submit:hover{
+    background-color: lightyellow;
+}
+
+
+
+
